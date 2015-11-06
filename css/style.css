@@ -1,0 +1,191 @@
+@font-face {
+	font-family: grunge;
+	src: url(../fonts/grunge.otf);
+}
+
+body {
+background-color: #2A2C2B;
+font-family: "grunge";
+color: black;
+background-image: url(../images/background.png);
+background-size: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+
+p {
+	width: 300px;
+	margin-top: -20px;
+	font-family: helvetica;
+	line-height: 20px;
+	color: white;
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.records {
+	padding-bottom: 40px;
+}
+
+.user {
+	color: white;
+}
+
+.user a:link {
+	color: white;
+}
+
+.user a:visited {
+	color: white;
+}
+
+.login {
+	height: 40px;
+	width: 200px;
+	font-family: helvetica;
+	font-size: 20px;
+}
+
+input[type=submit] {
+	height: 40px;
+	font-family: helvetica;
+	font-size: 20px;
+}
+
+ul {
+	padding-top: 30px;
+}
+
+ul li {
+	display: inline;
+	padding-left: 50px;
+}
+
+.notes {
+	display: block;
+	font-family: helvetica;
+}
+
+.note {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+
+.todaysDate, .todaysTotal, h2 {
+	
+	font-size: 20px;
+	padding-left: 100px;
+	padding-top: 50px;
+}
+
+.error {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.todaysTotal {
+	font-size: 30px;
+}
+
+
+.container h2 {
+	font-size: 56px;
+	padding-top: 10px;
+	padding-left: 120px;
+}
+
+.add, .minus {
+	cursor: pointer;
+}
+
+.notes, .records {
+	float: right;
+	margin-right: 300px;
+	width: 500px;
+}
+
+.allTotal {
+	padding-left: 170px;
+	font-size: 20px;
+
+}
+
+@media screen and (max-width: 640px) {
+	body {
+		background-color: white;
+		background-image: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.container {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	ul li img {
+		width: 70px;
+		margin-left: -20px;
+	}
+
+	.container h2 {
+		margin-left: -87px;
+	}
+
+	.todaysTotal, .allTotal {
+		font-size: 18px;
+	}
+
+	.todaysTotal {
+		margin-left: -30px;
+	}
+
+	.allTotal {
+		margin-left: -90px;
+	}
+
+	.user {
+	color: black;
+	}
+
+	.user a:link {
+		color: black;
+	}
+
+	.user a:visited {
+		color: black;
+	}
+
+	h3 {
+		margin-left: 30px;
+	}
+
+	.login {
+		margin-left: 30px;
+	}
+
+	p {
+		width: 80%;
+		margin-left: 30px;
+		margin-top: -20px;
+		font-family: helvetica;
+		color: black;
+	}
+
+	.error {
+		padding-top: 20px;
+		text-align: center;
+		margin-left: -90px;
+	}
+
+
+}
+
+
+

@@ -1,0 +1,1 @@
+0 0 * * * * /Users/John/Desktop/PHP/15lifts/index.php
